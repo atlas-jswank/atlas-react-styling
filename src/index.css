@@ -1,0 +1,11 @@
+@layer base {
+  body {
+    @apply bg-[#00003C];
+  }
+}
+
+@layer components {
+  .task {
+    @apply rounded-2xl m-8 p-8 bg-[#fef9e6] before:content-[attr(data-task)] before:text-lg before:font-extrabold before:text-[#00003C];
+  }
+}
