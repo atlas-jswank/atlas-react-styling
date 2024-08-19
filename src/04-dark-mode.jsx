@@ -1,6 +1,12 @@
-export default function BasicStyles() {
+export default function DarkMode() {
   return (
-    <section className="task" data-task="02. Basic Styles">
+    <section className={"task"} data-task="04. Dark Mode">
+      <button
+        className="border-2 rounded-md p-1 border-[#00003C] bg-[#fef9e6] float-right"
+        onClick={() => {}}
+      >
+        <img src="dark-mode.svg" alt="dark mode" />
+      </button>
       <div>
         <h2>Terms of Service</h2>
         <ul>

@@ -1,17 +1,19 @@
 import SetupTailwind from "./01-setup-tailwind";
 import BasicStyles from "./02-basic-styles";
-import Interactivity from "./03-interactivity";
-import Layouts from "./04-layouts";
-import Customizing from "./05-customizing";
+import Customizing from "./03-customizing";
+import DarkMode from "./04-dark-mode";
+import PsuedoClasses from "./05-psuedo-classes";
+import Layouts from "./06-layouts";
 
 function App() {
   return (
     <>
       <SetupTailwind />
       <BasicStyles />
-      <Interactivity />
-      <Layouts />
       <Customizing />
+      <DarkMode />
+      <PsuedoClasses />
+      <Layouts />
     </>
   );
 }

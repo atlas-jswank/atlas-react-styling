@@ -1,6 +1,6 @@
-export default function BasicStyles() {
+export default function Interactivity() {
   return (
-    <section className="task" data-task="02. Basic Styles">
+    <section className={"task"} data-task="05. Psuedo Classes">
       <div>
         <h2>Terms of Service</h2>
         <ul>

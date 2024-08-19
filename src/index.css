@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @layer base {
   body {
     @apply bg-[#00003C];
@@ -6,6 +10,7 @@
 
 @layer components {
   .task {
-    @apply rounded-2xl m-8 p-8 bg-[#fef9e6] before:content-[attr(data-task)] before:text-lg before:font-extrabold before:text-[#00003C];
+    @apply rounded-2xl m-8 p-8 bg-[#fef9e6] dark:bg-[#00003C] border-[#fef9e6] before:content-[attr(data-task)] 
+      before:text-lg before:font-extrabold before:text-[#00003C] before:dark:text-[#fef9e6] border-2;
   }
 }
